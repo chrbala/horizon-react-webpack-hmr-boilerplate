@@ -5,7 +5,7 @@ import store from 'store'
 
 import TodoList from 'TodoList'
  
-export default () =>
-	<Connector store={store} horizonProps={{}}>
+export default ({horizon}) =>
+	<Connector store={store} horizon={horizon}>
 		<TodoList />
 	</Connector>
