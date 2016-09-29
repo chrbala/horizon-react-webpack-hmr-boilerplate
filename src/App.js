@@ -1,4 +1,4 @@
-import Horizon from '@Horizon/client'
+import Horizon from '@horizon/client'
 import { Connector } from 'horizon-react'
 
 import store from 'store'
